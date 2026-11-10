@@ -1,10 +1,6 @@
 import React, { useState } from "react"
 import { useTablazatContext, type UjKonyvTipus } from "../contexts/TablazatContext";
 
-interface UrlapProps {
-
-}
-
 export function Urlap() {
     const {konyvHozzaadas} = useTablazatContext();
     const [cim, setCim] = useState<string>("");
@@ -74,7 +70,7 @@ export function Urlap() {
                     />
                 </div>
                 
-                <div className="form-mezo">
+                <div className="form-mezo gomb-mezo">
                     <input type="submit" value="Hozzáadás"/>
                 </div>
             </form>

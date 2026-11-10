@@ -1,4 +1,3 @@
-import type { KonyvTipus } from "../adatok";
 import { useTablazatContext } from "../contexts/TablazatContext";
 import Sor from "./Sor";
 
